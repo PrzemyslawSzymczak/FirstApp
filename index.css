@@ -1,14 +1,13 @@
 html, body {
-    font-size: 130%;
     margin: 0;
     padding: 0;
     background: #2E3538;
     color: #EBF6FF;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #main{
-    width: 300px;
+    width: 1000px;
     margin: 50px auto 50px 50px;
     padding: 10;
     border: 10 solid red;
@@ -16,6 +15,7 @@ html, body {
 
 h1{
     font-weight: bolder;
+    font-size: 500%;
 }
 
 #main-word{
@@ -37,7 +37,8 @@ button{
 #generated{
     display: block;
     margin: 50px auto 50px auto;
-    text-align: center
+    text-align: center;
+    font-size: 130%;
 }
 
 input{
@@ -62,4 +63,8 @@ input{
     width: 450px;
     margin: 0 auto;
     font-weight: bold;
+}
+
+p{
+    font-size: 150%;
 }
